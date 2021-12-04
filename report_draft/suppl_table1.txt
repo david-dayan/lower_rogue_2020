@@ -1,0 +1,210 @@
+Sample	Date	Julian Day	Location	Detailed Location	Sampling Method	Ots37124-12277401	Ots37124-12310649	greb1l SNP1 Genotype	greb1l SNP2 Genotype	Two SNP Genotype
+OtsAC20ROGR_0001	4/5/20	96	Quosatana	Quosatana	angler	TT	AA	early_homozygote	early_homozygote	early_homozygote
+OtsAC20ROGR_0002	4/5/20	96	Quosatana	Quosatana	angler	TT	AA	early_homozygote	early_homozygote	early_homozygote
+OtsAC20ROGR_0003	4/6/20	97	Port	Elephant Rock	angler	TT	AA	early_homozygote	early_homozygote	early_homozygote
+OtsAC20ROGR_0004	4/8/20	99	Quosatana	Quosatana	angler	TT	AA	early_homozygote	early_homozygote	early_homozygote
+OtsAC20ROGR_0005	4/8/20	99	Mill Site	Willows	angler	TT	AA	early_homozygote	early_homozygote	early_homozygote
+OtsAC20ROGR_0006	4/8/20	99	Mill Site	Willows	angler	TT	AA	early_homozygote	early_homozygote	early_homozygote
+OtsAC20ROGR_0007	4/9/20	100	Lobster Creek	Dunk	angler	TT	AA	early_homozygote	early_homozygote	early_homozygote
+OtsAC20ROGR_0008	4/9/20	100	Quosatana	Cole Riffle	angler	TT	AA	early_homozygote	early_homozygote	early_homozygote
+OtsAC20ROGR_0009	4/11/20	102	Lobster Creek	Shallow Riffle	angler	TT	AA	early_homozygote	early_homozygote	early_homozygote
+OtsAC20ROGR_0010	4/12/20	103	Mill Site	Elephant Rock	angler	TT	AA	early_homozygote	early_homozygote	early_homozygote
+OtsAC20ROGR_0011	4/14/20	105	Quosatana	Cole Riffle	angler	TT	AA	early_homozygote	early_homozygote	early_homozygote
+OtsAC20ROGR_0012	4/14/20	105	Quosatana	Cole Riffle	angler	TT	AA	early_homozygote	early_homozygote	early_homozygote
+OtsAC20ROGR_0013	4/15/20	106	Lobster Creek	Lobster	angler	TT	AA	early_homozygote	early_homozygote	early_homozygote
+OtsAC20ROGR_0014	4/27/20	118	Lobster Creek	Dunk	angler	TT	AA	early_homozygote	early_homozygote	early_homozygote
+OtsAC20ROGR_0015	5/3/20	124	Lobster Creek	Lobster	angler	TT	AA	early_homozygote	early_homozygote	early_homozygote
+OtsAC20ROGR_0016	5/3/20	124	Mill Site	Snag Patch	angler	TT	AA	early_homozygote	early_homozygote	early_homozygote
+OtsAC20ROGR_0017	5/5/20	126	Lobster Creek	Dunk	angler	TA	AA	heterozygote	early_homozygote	discordant
+OtsAC20ROGR_0018	5/6/20	127	Mill Site	Clay Banks	angler	TT	AA	early_homozygote	early_homozygote	early_homozygote
+OtsAC20ROGR_0019	5/8/20	129	Mill Site	226	angler	TT	AA	early_homozygote	early_homozygote	early_homozygote
+OtsAC20ROGR_0020	5/12/20	133	Quosatana	226	angler	TT	AA	early_homozygote	early_homozygote	early_homozygote
+OtsAC20ROGR_0021	5/12/20	133	Mill Site	Clay Banks	angler	TT	AA	early_homozygote	early_homozygote	early_homozygote
+OtsAC20ROGR_0022	5/13/20	134	Lobster Creek	Lobster	angler	TT	AA	early_homozygote	early_homozygote	early_homozygote
+OtsAC20ROGR_0023	5/13/20	134	Lobster Creek	Lobster	angler	TT	AA	early_homozygote	early_homozygote	early_homozygote
+OtsAC20ROGR_0024	5/14/20	135	Mill Site	Elephant Rock	angler	TT	AA	early_homozygote	early_homozygote	early_homozygote
+OtsAC20ROGR_0025	5/14/20	135	Mill Site	Willows	angler	TT	AA	early_homozygote	early_homozygote	early_homozygote
+OtsAC20ROGR_0026	5/15/20	136	Mill Site	Elephant Rock	angler	TT	AA	early_homozygote	early_homozygote	early_homozygote
+OtsAC20ROGR_0027	5/16/20	137	Mill Site	Willows	angler	TT	AA	early_homozygote	early_homozygote	early_homozygote
+OtsAC20ROGR_0028	5/17/20	138	Mill Site	226	angler	TT	AA	early_homozygote	early_homozygote	early_homozygote
+OtsAC20ROGR_0029	5/17/20	138	Lobster Creek	Lobster	angler	TA	AT	heterozygote	heterozygote	heterozygote
+OtsAC20ROGR_0030	5/17/20	138	Lobster Creek	Lobster	angler	TA	AT	heterozygote	heterozygote	heterozygote
+OtsAC20ROGR_0031	5/19/20	140	Quosatana	Quosatana	angler	TT	AA	early_homozygote	early_homozygote	early_homozygote
+OtsAC20ROGR_0032	5/19/20	140	Port	Elephant Rock	angler	TT	AA	early_homozygote	early_homozygote	early_homozygote
+OtsAC20ROGR_0033	5/19/20	140	Port	Elephant Rock	angler	TT	AA	early_homozygote	early_homozygote	early_homozygote
+OtsAC20ROGR_0034	5/19/20	140	Lobster Creek	Lobster	angler	TA	AT	heterozygote	heterozygote	heterozygote
+OtsAC20ROGR_0035	5/20/20	141	Lobster Creek	Lobster	angler	TT	AA	early_homozygote	early_homozygote	early_homozygote
+OtsAC20ROGR_0036	5/20/20	141	Port	Elephant Rock	angler	TT	AA	early_homozygote	early_homozygote	early_homozygote
+OtsAC20ROGR_0037	5/21/20	142	Lobster Creek	Dunk	angler	TT	AA	early_homozygote	early_homozygote	early_homozygote
+OtsAC20ROGR_0038	5/22/20	143	Lobster Creek	Lobster	angler	TT	AA	early_homozygote	early_homozygote	early_homozygote
+OtsAC20ROGR_0039	5/22/20	143	Lobster Creek	Lobster	angler	TT	AA	early_homozygote	early_homozygote	early_homozygote
+OtsAC20ROGR_0040	5/22/20	143	Lobster Creek	Dunk	angler	TT	AA	early_homozygote	early_homozygote	early_homozygote
+OtsAC20ROGR_0041	5/22/20	143	Quosatana	Quosatana	angler	TA	AT	heterozygote	heterozygote	heterozygote
+OtsAC20ROGR_0042	5/22/20	143	Mill Site	Elephant Rock	angler	TT	AA	early_homozygote	early_homozygote	early_homozygote
+OtsAC20ROGR_0043	5/22/20	143	Lobster Creek	Lobster	angler	TT	AA	early_homozygote	early_homozygote	early_homozygote
+OtsAC20ROGR_0044	5/22/20	143	Lobster Creek	Lobster	angler	TT	AA	early_homozygote	early_homozygote	early_homozygote
+OtsAC20ROGR_0045	5/24/20	145	Mill Site	Willows	angler	TT	AA	early_homozygote	early_homozygote	early_homozygote
+OtsAC20ROGR_0046	5/26/20	147	Quosatana	Quosatana	angler	TA	AT	heterozygote	heterozygote	heterozygote
+OtsAC20ROGR_0047	5/26/20	147	Mill Site	Clay Banks	angler	TT	AA	early_homozygote	early_homozygote	early_homozygote
+OtsAC20ROGR_0048	6/2/20	154	Lobster Creek	Lobster	angler	TT	AA	early_homozygote	early_homozygote	early_homozygote
+OtsAC20ROGR_0049	6/2/20	154	Lobster Creek	Lobster	angler	TT	AA	early_homozygote	early_homozygote	early_homozygote
+OtsAC20ROGR_0050	6/4/20	156	Lobster Creek	Lobster	angler	TA	AT	heterozygote	heterozygote	heterozygote
+OtsAC20ROGR_0051	6/7/20	159	Quosatana	Quosatana	angler	TT	AT	early_homozygote	heterozygote	discordant
+OtsAC20ROGR_0052	6/9/20	161	Lobster Creek	Dunk	angler	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0053	6/10/20	162	Mill Site	Upper Rogue	angler	TA	AT	heterozygote	heterozygote	heterozygote
+OtsAC20ROGR_0054	6/10/20	162	Quosatana	Quosatana	angler	TT	AA	early_homozygote	early_homozygote	early_homozygote
+OtsAC20ROGR_0055	6/10/20	162	Quosatana	Quosatana	angler	TA	AT	heterozygote	heterozygote	heterozygote
+OtsAC20ROGR_0056	6/10/20	162	Lobster Creek	Lobster	angler	TA	AT	heterozygote	heterozygote	heterozygote
+OtsAC20ROGR_0057	6/10/20	162	Lobster Creek	Lobster	angler	TA	AT	heterozygote	heterozygote	heterozygote
+OtsAC20ROGR_0058	6/10/20	162	Lobster Creek	Lobster	angler	TA	AT	heterozygote	heterozygote	heterozygote
+OtsAC20ROGR_0059	6/13/20	165	Quosatana	Quosatana	angler	TT	AA	early_homozygote	early_homozygote	early_homozygote
+OtsAC20ROGR_0060	6/14/20	166	Quosatana	Quosatana	angler	TA	AT	heterozygote	heterozygote	heterozygote
+OtsAC20ROGR_0061	6/14/20	166	Quosatana	Quosatana	angler	TT	AA	early_homozygote	early_homozygote	early_homozygote
+OtsAC20ROGR_0062	6/17/20	169	Quosatana	Quosatana	angler	TT	AA	early_homozygote	early_homozygote	early_homozygote
+OtsAC20ROGR_0063	6/17/20	169	Quosatana	Quosatana	angler	TA	AT	heterozygote	heterozygote	heterozygote
+OtsAC20ROGR_0064	6/17/20	169	Quosatana	Quosatana	angler	TT	AA	early_homozygote	early_homozygote	early_homozygote
+OtsAC20ROGR_0065	6/19/20	171	Quosatana	Quosatana	angler	TA	AT	heterozygote	heterozygote	heterozygote
+OtsAC20ROGR_0066	6/19/20	171	Quosatana	Quosatana	angler	TA	AT	heterozygote	heterozygote	heterozygote
+OtsAC20ROGR_0067	6/20/20	172	Quosatana	Quosatana	angler	TA	AT	heterozygote	heterozygote	heterozygote
+OtsAC20ROGR_0068	7/8/20	190	Rogue Bay	Rogue Bay	cleaning station	TA	AT	heterozygote	heterozygote	heterozygote
+OtsAC20ROGR_0069	7/16/20	198	Rogue Bay	Rogue Bay	cleaning station	TA	AT	heterozygote	heterozygote	heterozygote
+OtsAC20ROGR_0070	7/16/20	198	Rogue Bay	Rogue Bay	cleaning station	TA	AT	heterozygote	heterozygote	heterozygote
+OtsAC20ROGR_0071	7/16/20	198	Rogue Bay	Rogue Bay	cleaning station	TA	AT	heterozygote	heterozygote	heterozygote
+OtsAC20ROGR_0073	7/16/20	198	Rogue Bay	Rogue Bay	cleaning station	TA	AT	heterozygote	heterozygote	heterozygote
+OtsAC20ROGR_0075	7/19/20	201	Rogue Bay	Rogue Bay	cleaning station	TT	AA	early_homozygote	early_homozygote	early_homozygote
+OtsAC20ROGR_0076	7/19/20	201	Rogue Bay	Rogue Bay	cleaning station	TA	AT	heterozygote	heterozygote	heterozygote
+OtsAC20ROGR_0077	7/19/20	201	Rogue Bay	Rogue Bay	cleaning station	TA	AT	heterozygote	heterozygote	heterozygote
+OtsAC20ROGR_0078	7/19/20	201	Rogue Bay	Rogue Bay	cleaning station	TA	AT	heterozygote	heterozygote	heterozygote
+OtsAC20ROGR_0079	7/19/20	201	Rogue Bay	Rogue Bay	cleaning station	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0080	7/21/20	203	Huntley Park	Huntley Park	seine	TA	AT	heterozygote	heterozygote	heterozygote
+OtsAC20ROGR_0081	7/21/20	203	Huntley Park	Huntley Park	seine	AA	AT	late_homozygote	heterozygote	discordant
+OtsAC20ROGR_0082	7/29/20	211	Huntley Park	Huntley Park	seine	TA	AT	heterozygote	heterozygote	heterozygote
+OtsAC20ROGR_0083	7/31/20	213	Huntley Park	Huntley Park	seine	TA	AT	heterozygote	heterozygote	heterozygote
+OtsAC20ROGR_0084	7/31/20	213	Huntley Park	Huntley Park	seine	TA	AT	heterozygote	heterozygote	heterozygote
+OtsAC20ROGR_0085	8/7/20	220	Huntley Park	Huntley Park	seine	TA	AT	heterozygote	heterozygote	heterozygote
+OtsAC20ROGR_0086	8/12/20	225	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0087	8/12/20	225	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0088	8/14/20	227	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0089	8/14/20	227	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0090	8/14/20	227	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0091	8/14/20	227	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0092	8/14/20	227	Huntley Park	Huntley Park	seine	TA	AT	heterozygote	heterozygote	heterozygote
+OtsAC20ROGR_0093	8/19/20	232	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0094	8/21/20	234	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0095	8/26/20	239	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0096	8/26/20	239	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0097	8/26/20	239	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0098	8/26/20	239	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0099	8/26/20	239	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0100	8/26/20	239	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0101	8/26/20	239	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0102	8/26/20	239	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0103	8/26/20	239	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0104	8/26/20	239	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0105	8/26/20	239	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0106	8/26/20	239	Huntley Park	Huntley Park	seine	TA	AT	heterozygote	heterozygote	heterozygote
+OtsAC20ROGR_0107	8/26/20	239	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0108	8/26/20	239	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0109	8/26/20	239	Huntley Park	Huntley Park	seine	TA	AT	heterozygote	heterozygote	heterozygote
+OtsAC20ROGR_0110	8/26/20	239	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0111	8/26/20	239	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0112	8/26/20	239	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0113	8/26/20	239	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0114	8/26/20	239	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0115	8/26/20	239	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0116	8/26/20	239	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0117	8/26/20	239	Huntley Park	Huntley Park	seine	TA	AT	heterozygote	heterozygote	heterozygote
+OtsAC20ROGR_0118	8/26/20	239	Huntley Park	Huntley Park	seine	TA	TT	heterozygote	late_homozygote	discordant
+OtsAC20ROGR_0119	8/28/20	241	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0120	8/28/20	241	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0121	8/28/20	241	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0122	8/28/20	241	Huntley Park	Huntley Park	seine	TA	AT	heterozygote	heterozygote	heterozygote
+OtsAC20ROGR_0123	8/31/20	244	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0124	8/31/20	244	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0125	8/31/20	244	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0126	8/31/20	244	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0127	8/31/20	244	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0128	8/31/20	244	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0129	8/31/20	244	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0130	8/31/20	244	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0131	8/31/20	244	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0132	8/31/20	244	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0133	8/31/20	244	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0134	8/31/20	244	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0135	8/31/20	244	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0136	8/31/20	244	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0137	9/2/20	246	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0138	9/2/20	246	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0139	9/2/20	246	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0140	9/2/20	246	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0141	9/4/20	248	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0142	9/4/20	248	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0143	9/4/20	248	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0144	9/4/20	248	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0145	9/4/20	248	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0146	9/4/20	248	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0147	9/4/20	248	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0148	9/4/20	248	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0149	9/4/20	248	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0150	9/4/20	248	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0151	9/4/20	248	Huntley Park	Huntley Park	seine	TA	AT	heterozygote	heterozygote	heterozygote
+OtsAC20ROGR_0152	9/4/20	248	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0153	9/4/20	248	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0154	9/4/20	248	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0155	9/9/20	253	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0156	9/9/20	253	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0157	9/11/20	255	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0158	9/11/20	255	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0159	9/11/20	255	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0160	9/11/20	255	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0161	9/11/20	255	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0162	9/11/20	255	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0163	9/11/20	255	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0164	9/11/20	255	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0165	9/11/20	255	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0166	9/11/20	255	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0167	9/11/20	255	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0168	9/11/20	255	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0169	9/11/20	255	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0170	9/11/20	255	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0171	9/11/20	255	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0172	9/11/20	255	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0173	9/11/20	255	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0174	9/11/20	255	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0175	9/11/20	255	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0176	9/11/20	255	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0177	9/14/20	258	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0178	9/14/20	258	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0179	9/14/20	258	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0180	9/14/20	258	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0181	9/14/20	258	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0182	9/14/20	258	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0183	9/14/20	258	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0184	9/14/20	258	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0185	9/16/20	260	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0186	9/16/20	260	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0187	9/16/20	260	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0188	9/16/20	260	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0189	9/16/20	260	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0190	9/16/20	260	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0191	9/16/20	260	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0192	9/16/20	260	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0193	9/16/20	260	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0194	9/16/20	260	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0195	9/16/20	260	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0196	9/16/20	260	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0197	9/16/20	260	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0198	9/16/20	260	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0199	9/16/20	260	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0200	9/16/20	260	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0201	9/16/20	260	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0202	9/16/20	260	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0203	9/16/20	260	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0204	9/18/20	262	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0205	9/18/20	262	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0206	9/21/20	265	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0207	9/23/20	267	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0208	9/23/20	267	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0209	9/28/20	272	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0210	9/28/20	272	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
+OtsAC20ROGR_0211	9/30/20	274	Huntley Park	Huntley Park	seine	AA	TT	late_homozygote	late_homozygote	late_homozygote
