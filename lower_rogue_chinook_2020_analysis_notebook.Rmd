@@ -139,7 +139,7 @@ We received a spreadsheet with some of this data, but it spans only the period w
 The spreadsheet was also internally inconsistent, with monthly cumulative sample number equal to 67. Given this piece of information, I'm assuming the weekly running totals contain a typo, and I chose to use the information from the metadata and monthly running sums to construct the figure below.
 
 _Update_  
-Received an updated version of this file, but it still had some similar issues. We're confident the metadata for the samples we received are correct so we'll just get the environmental data ourselves and calculate our own running totals.
+Received an updated version of this file, while this error was resolved, it is still difficult to incorporate this spreadsheet into our analysis directly because it conflicts with our approach to time series data (weeks don't match up, etc). We're confident the metadata for the samples we received are correct so we'll just get the environmental data ourselves and calculate our own running totals.
 
 __Angler Sampling vs Temp and Discharge__
 
@@ -254,7 +254,7 @@ __Temperature and Discharge__
 Checked a few dates on the odfw spreadsheet to confirm I was pulling the right data, then got discharge and temp data from the USGS Agness monitoring station (number 14372300)
 
 ```{r, message=FALSE, warning=FALSE}
-#the usgs provides data in 5 min intervals, let's modify it to the same format used before, average by day, then plot by week.
+#the usgs provides data in 15 min intervals, let's modify it to the same format used before, average by day, then plot by week.
 
 agn <- read_tsv("metadata/agness_2019_2020.txt")
 
@@ -504,6 +504,39 @@ ggplot(data = filter(ldreport28))+geom_tile(aes(marker_1, marker_2, fill = R2), 
 ```
 
 Similar to what we've observed in Rogue Chinook before, there appears to be two haplotype blocks (regions in perfect LD) and "discordance" between SNP1 (Ots37124-12277401 in this figure) and SNP2 (Ots37124-12310649) seems to stem from the inheritance of two different haplotype blocks within the GREB1l region: (1) from Ots28_11062912 to Ots28_11077576, and (2) from Ots28_11095755 to Ots28_11201129. However, these two markers are still strongly linked in the dataset. R-squared is 95.7% and only 4 of 209 (2%) individuals have "discordant" genotypes.
+
+# Dominance
+
+How does the distribution of sampling date change across the three genotype classes? This is not a precise estimate of dominance variance in the quantitative genetics sense, and has some issues with phenotyping (individuals sampled later may have entered the river much earlier and held there until sampled and if this behavior varies across genotype classes our estimate of dominance will be biased), but might still be generally interesting to readers and is difficult to assess from the figures already produced. Let's make a plot and estimate degree of dominance (d/a in the Falconer and Mackay sense)
+
+```{r}
+
+#Let's calculate the degree of dominance so we can describe it exactly though.
+
+genotypic_means <- t_snp_data %>%
+  group_by(SNP1) %>%
+  summarise(mean = mean(julian_day))
+
+genotypic_means
+
+homo_midpoint <- (genotypic_means$mean[1] + genotypic_means$mean[3])/2
+
+homo_midpoint
+
+a <- homo_midpoint - genotypic_means$mean[1]
+degree_dominance <-  (genotypic_means$mean[2]-homo_midpoint)/a
+
+degree_dominance
+
+#plot
+ggplot(t_snp_data)+geom_density(aes(DateSampled, fill = SNP1), alpha = 0.8)+theme_bw()+scale_fill_manual(values = c("#6FD185" , "#9D8C1B", "#964841"), name = "Genotype at SNP1", labels = c("Homozygous Spring", "Heterozygous", "Homozygous Fall"))+ theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))+scale_x_date(date_labels = "%b %d",breaks = break.vec, limits = as.Date(c("2020-04-01", "2020-09-31")))+xlab("Date")+geom_vline(aes(xintercept = as.Date("2020-05-12")), color = "#6FD185")+geom_vline(aes(xintercept = DateSampled[68]))+geom_vline(aes(xintercept = as.Date("2020-07-06")), color = "#9D8C1B")+geom_vline(aes(xintercept = as.Date("2020-09-04")), color = "#964841")+ylab("Density")
+```
+
+Doesn't get much more additive looking than that!
+
+
+The degree of dominance is -0.038, which means that the early allele is very slightly dominant (but see problems with phenotyping described above). Should flip the sign in the report to make this more consistent with the standard conception here.
+
 
 # Summary Table
 
