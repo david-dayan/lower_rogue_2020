@@ -19,6 +19,7 @@ require(magrittr)
 require(kableExtra)
 require(gt)
 require(gtsummary)
+require(khroma)
 
 ```
 
@@ -77,7 +78,13 @@ tbl_summary(to_sum, by = CaptureMethod) %>%
 #the date bins don't align across different datasets, let's set a break vector and use it for all plate
 break.vec <- c(seq(from = as.Date("2020-02-26"), to = as.Date("2020-09-30"), by = "week"))
 
-ggplot(data = metadata)+geom_histogram(aes(x = DateSampled, color = CaptureMethod, fill = CaptureMethod), breaks = break.vec)+theme_classic()+xlab("Week Sampled")+ylab("Number Sampled")+scale_x_date(date_labels = "%b %d", name = "Sampling Date", breaks = break.vec, limits = as.Date(c("2020-04-01", "2020-10-01"))) + theme(axis.text.x = element_text(angle=90)) + scale_color_viridis_d(name = "Sampling Method", labels = c("Volunteer Angler", "Creel Survey", "Seine"))+scale_fill_viridis_d(name = "Sampling Method", labels = c("Volunteer Angler", "Creel Survey", "Seine"))+scale_y_continuous(expand = c(0,0))
+ggplot(data = metadata)+geom_histogram(aes(x = DateSampled, color = CaptureMethod, fill = CaptureMethod), breaks = break.vec)+theme_classic()+xlab("Week Sampled")+ylab("Number Sampled")+scale_x_date(date_labels = "%b %d", name = "Sampling Date", breaks = break.vec, limits = as.Date(c("2020-04-01", "2020-10-01"))) + theme(axis.text.x = element_text(angle=90)) + scale_color_viridis_d(name = "Sampling Method", labels = c("Volunteer Angler", "Creel Survey", "Seine"), end = 0.9)+scale_fill_viridis_d(name = "Sampling Method", labels = c("Volunteer Angler", "Creel Survey", "Seine"), end = 0.9)+scale_y_continuous(expand = c(0,0))
+
+
+ggplot(data = metadata)+geom_histogram(aes(x = DateSampled, color = CaptureMethod, fill = CaptureMethod), breaks = break.vec)+theme_classic()+xlab("Week Sampled")+ylab("Number Sampled")+scale_x_date(date_labels = "%b %d", name = "Week", breaks = break.vec, limits = as.Date(c("2020-04-01", "2020-10-01"))) + theme(axis.text.x = element_text(angle=90)) + scale_color_brewer(name = "Sampling Method", labels = c("Volunteer Angler", "Creel Survey", "Seine"), palette = "Dark2")+scale_fill_brewer(name = "Sampling Method", labels = c("Volunteer Angler", "Creel Survey", "Seine"), palette = "Dark2")+scale_y_continuous(expand = c(0,0))
+
+ggplot(data = metadata)+geom_histogram(aes(x = DateSampled, color = CaptureMethod, fill = CaptureMethod), breaks = break.vec)+theme_classic()+xlab("Week Sampled")+ylab("Number Sampled")+scale_x_date(date_labels = "%b %d", name = "Week", breaks = break.vec, limits = as.Date(c("2020-04-01", "2020-10-01"))) + theme(axis.text.x = element_text(angle=90)) + scale_color_highcontrast(name = "Sampling Method", labels = c("Volunteer Angler", "Creel Survey", "Seine"))+scale_fill_highcontrast(name = "Sampling Method", labels = c("Volunteer Angler", "Creel Survey", "Seine"))+scale_y_continuous(expand = c(0,0))
+
 
 ```
 
@@ -290,12 +297,16 @@ agn_long <- agn %>%
   mutate(yday = lubridate::yday(date),
          year = factor(lubridate::year(date)))
 
+agn_long_metric <- agn_long %>%
+  mutate(value = case_when(variable == "discharge" ~ value * 0.0283168466,
+                           TRUE ~ value))
 
-g1 = ggplot(filter(agn_long, variable == "discharge"))+geom_line(aes(yday, log10(value), color = year), size = 1.2, alpha = 0.9)+xlim(78, 280)+scale_color_viridis_d()+theme_bw(base_size = 8)+ylab("Log10(Discharge)\n(cfs)")+xlab(NULL)+theme(axis.text.x = element_blank() , plot.margin = unit(c(0, 0, 0, 0), "cm"))
 
-g2 = ggplot(days)+geom_histogram(aes(yday, color = year, fill = year), position = position_dodge2(padding = 0.2), binwidth = 7)+xlim(78, 280)+scale_color_viridis_d(name = "Year")+scale_fill_viridis_d(name = "Year")+theme_bw(base_size = 8)+ylab("Number of\nindividuals sampled")+xlab(NULL)+scale_y_continuous(expand = c(0,0))+theme(legend.text = element_text(size = 10), legend.title = element_text(size = 10), axis.text.x = element_blank())
+g1 = ggplot(filter(agn_long, variable == "discharge"))+geom_line(aes(yday, log10(value), color = year), size = 1.2, alpha = 0.9)+xlim(78, 280)+scale_color_highcontrast()+theme_bw(base_size = 8)+ylab("Log10(Discharge)\n(cfs)")+xlab(NULL)+theme(axis.text.x = element_blank() , plot.margin = unit(c(0, 0, 0, 0), "cm"))
 
-g3 = ggplot(filter(agn_long, variable == "temp"))+geom_line(aes(yday, value, color = year), size = 1.2, alpha = 0.9)+xlim(78, 280)+scale_color_viridis_d()+theme_bw(base_size = 8)+ylab("Temperature\n(°C)")+xlab("Julian Day")
+g2 = ggplot(days)+geom_histogram(aes(yday, color = year, fill = year), position = position_dodge2(padding = 0.2), binwidth = 7)+xlim(78, 280)+scale_color_highcontrast(name = "Year")+scale_fill_highcontrast(name = "Year")+theme_bw(base_size = 8)+ylab("Number of\nindividuals sampled")+xlab(NULL)+scale_y_continuous(expand = c(0,0))+theme(legend.text = element_text(size = 10), legend.title = element_text(size = 10), axis.text.x = element_blank())
+
+g3 = ggplot(filter(agn_long, variable == "temp"))+geom_line(aes(yday, value, color = year), size = 1.2, alpha = 0.9)+xlim(78, 280)+scale_color_highcontrast()+theme_bw(base_size = 8)+ylab("Temperature\n(°C)")+xlab("Julian Day")
 
 plot_grid(
   plot_grid(
@@ -311,6 +322,30 @@ plot_grid(
     , ncol =1)
   , rel_widths = c(4,1)
   )
+```
+
+```{r, eval = FALSE}
+g1 = ggplot(filter(agn_long_metric, variable == "discharge"))+geom_line(aes(yday, log10(value), color = year), size = 1.2, alpha = 0.9)+xlim(78, 280)+scale_color_highcontrast()+theme_bw(base_size = 8)+ylab("Log10(Discharge)\n(cms)")+xlab(NULL)+theme(axis.text.x = element_blank() , plot.margin = unit(c(0, 0, 0, 0), "cm"))
+
+g2 = ggplot(days)+geom_histogram(aes(yday, color = year, fill = year), position = position_dodge2(padding = 0.2), binwidth = 7)+xlim(78, 280)+scale_color_highcontrast(name = "Year")+scale_fill_highcontrast(name = "Year")+theme_bw(base_size = 8)+ylab("Number of\nindividuals sampled")+xlab(NULL)+scale_y_continuous(expand = c(0,0))+theme(legend.text = element_text(size = 10), legend.title = element_text(size = 10), axis.text.x = element_blank())
+
+g3 = ggplot(filter(agn_long_metric, variable == "temp"))+geom_line(aes(yday, value, color = year), size = 1.2, alpha = 0.9)+xlim(78, 280)+scale_color_highcontrast()+theme_bw(base_size = 8)+ylab("Temperature\n(°C)")+xlab("Julian Day")
+
+plot_grid(
+  plot_grid(
+    g1 + theme(legend.position = "none")
+    , g2 + theme(legend.position = "none")
+    , g3 + theme(legend.position = "none")
+    , ncol = 1
+    , align = "hv")
+  , plot_grid(
+    ggplot()+theme_minimal()
+    , get_legend(g2)
+    , ggplot()+theme_minimal()
+    , ncol =1)
+  , rel_widths = c(4,1)
+  )
+
 ```
 
 
@@ -422,7 +457,7 @@ t_snp_data %<>%
   mutate(cumulative_early_allele = cumsum(SNP1_alleles)) %>%
   mutate(portion_early = cumulative_early_allele/max(cumulative_early_allele))
 
-ggplot(data = t_snp_data)+geom_line(aes(DateSampled, portion_early), size = 2, color = "#CC3311")+theme_classic()+geom_hline(aes(yintercept = 0.8), linetype = "dotted")+geom_vline(aes(xintercept = as.Date("2020-06-17")), linetype = "dotted")+geom_hline(aes(yintercept = 0.5), linetype = "dotted")+geom_vline(aes(xintercept = as.Date("2020-05-21")), linetype = "dotted")+scale_y_continuous(breaks = c(0, 0.25, 0.5, 0.75, 0.8, 1))+scale_x_date(breaks = c(as.Date("2020-04-01"), as.Date("2020-05-01"),as.Date("2020-05-21"), as.Date("2020-06-01"), as.Date("2020-06-17"), as.Date("2020-07-01"),as.Date("2020-08-01"), as.Date("2020-09-01"), as.Date("2020-10-01")), date_labels = "%b %d")+xlab("Julian Day")+ylab("Cumulative Proportion\nObserved Early Alleles")+theme(axis.text.x = element_text(angle=90))
+ggplot(data = t_snp_data)+geom_line(aes(DateSampled, portion_early), size = 2, color = "#004488")+theme_classic()+geom_hline(aes(yintercept = 0.8), linetype = "dotted")+geom_vline(aes(xintercept = as.Date("2020-06-17")), linetype = "dotted")+geom_hline(aes(yintercept = 0.5), linetype = "dotted")+geom_vline(aes(xintercept = as.Date("2020-05-21")), linetype = "dotted")+scale_y_continuous(breaks = c(0, 0.25, 0.5, 0.75, 0.8, 1))+scale_x_date(breaks = c(as.Date("2020-04-01"), as.Date("2020-05-01"),as.Date("2020-05-21"), as.Date("2020-06-01"), as.Date("2020-06-17"), as.Date("2020-07-01"),as.Date("2020-08-01"), as.Date("2020-09-01"), as.Date("2020-10-01")), date_labels = "%b %d")+xlab("Julian Day")+ylab("Cumulative Proportion\nObserved Early Alleles")+theme(axis.text.x = element_text(angle=90))
 
 
 
